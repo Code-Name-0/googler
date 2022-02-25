@@ -1,0 +1,19 @@
+#!/bin/bash
+input=$1
+res=""
+sep=" "
+echo $input > input
+
+for (( i=1; i<=${#input}; i++  ))
+do
+	x=$(cut -c$i input)
+	if [[ "$x" == "$sep" ]]
+	then
+		res+="+"
+	else
+		res+=$x
+	fi
+done
+rm input
+link="https://www.google.com/search?client=firefox-b-d&q="$res
+firefox $link > /dev/null 2>&1 &
