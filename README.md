@@ -20,4 +20,4 @@ or do it manually by copying the file "google" to /usr/bin
 $google <search string>
 
 ex:
-	$ google "Code-Name-0 github"
+	$ google "do a barrel rol" 
