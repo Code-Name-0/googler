@@ -2,7 +2,7 @@
 
 
 
-this is a simple script to google thing from terminal 
+this is a simple script to google things from terminal 
 
 ###### installation:
 
