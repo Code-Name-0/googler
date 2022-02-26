@@ -16,4 +16,5 @@ do
 done
 rm input
 link="https://www.google.com/search?client=firefox-b-d&q="$res
+echo "give me a minute"
 firefox $link > /dev/null 2>&1 &
